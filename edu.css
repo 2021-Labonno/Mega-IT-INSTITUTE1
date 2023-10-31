@@ -1,0 +1,284 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body, html{
+    font-family:Roboto, sans-serif, Arial;
+    background: #f0f3fa;
+}
+.width-100{
+    width: 100%;
+    float:left;
+}
+.container{
+    width: 1500px;
+    margin: 0px auto;
+    
+}
+.top-header{
+    background: #2196f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e;
+
+}
+.news-list{
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+.headquote{
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+}
+.header-menu{
+position: relative;
+box-shadow: 0px 2px 5px 0px #00000036;
+}
+.logo{
+width: 90px;
+height: 50;
+float:left;
+}
+.main-menu{
+    list-style: none;
+    float:right;
+    margin-top: 20px;
+
+}
+.main-menu a{
+font-weight: 50;
+color: #3a3a3a;
+font-size: 20px;
+text-decoration: none;
+}
+.main-menu li{
+float: left;
+padding: 12px 15px;
+}
+.slider-width{
+    width: 100%;
+    height: auto;
+}
+.margin-top-50{
+margin-top: 50px;
+align-items: center;
+}
+.width-50{
+width: 50%;
+float: left;
+}
+.width-100
+{
+    width: 100%;
+    float: left;
+}
+.latest-news
+{
+margin-left: 10px;
+margin-right: 10px;
+background: #f7f4f4;
+padding: 20px;
+height: 350px;
+margin-bottom: 30px;
+background-size: 250px;
+
+}
+.heading-sect{
+width: 100%;
+float:left;
+border-bottom: 1px solid #cfcfcf;
+/* padding-bottom: 0px;
+margin: 0px;
+margin-bottom: 15px;
+border: 1px solid #750c0c;
+padding-top: 15px;
+padding-left: 15px; */
+background: #090a0a;
+color: white;
+}
+.head-title{
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+font-weight: 600;
+color: #2196f3;
+padding-bottom: 5px;
+}
+.latest-news-ul{
+padding: 0px;
+list-style: none;
+line-height: 40px;
+}
+.event-list{
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+.upcoming-event-list{
+padding: 0px;
+list-style: none;
+}
+.upcoming-event-list li{
+width: 100%;
+float: left;
+margin-bottom: 15px;
+}
+.event-date{
+background: #0871fa;
+width: 30px;
+float: left;
+text-align: center ;
+font-size: 14px;
+color: #fff;
+padding: 8px;
+margin-right: 10px;
+}
+.notice-board{
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fcfbfb;
+    padding: 20px;
+    height: 200px;
+    margin-bottom: 30px;
+
+}
+.notice-board-list{
+ padding: 0px;
+ list-style: none;
+ /* line-height: 40px; */
+}
+.notice-board-list li{
+width: 100%;
+float: left;
+margin-bottom: 15px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.navbar {
+    overflow: hidden;
+    background-color: #353539;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.footer
+{
+background: #232f3e;
+padding: 50px 0px;
+}
+.quicklink-heading{
+font-size: 18px;
+font-weight: bold;
+color: #fff;
+margin-bottom: 10px;
+}
+.quicklink-menu
+{
+list-style: none;
+padding-left: 10px;
+}
+.quicklink-menu li a{
+  color:white ;
+  line-height:2.5 ;
+  font-size: 15px;
+  text-decoration: none ;  
+}
+.get-in-touch
+{
+list-style:none;
+padding-left: 10px;
+}
+.get-in-touch li i{
+color: #ed372c;
+font-size: 15px;
+}
+.get-in-touch li{
+color: #fff;
+line-height: 2.5;
+font-size: 15px;
+}
+
+ .width-25{
+    width: 25%;
+    float: left;
+ }
+ .foot{
+    color: white;
+    background-color: #3a3a3a;
+    text-align: center;
+ }
+ .recruiter-head-style{
+    font-size: 28px;
+    color: #f5efef;
+    margin-bottom: 5px;
+ }
+ .recruiter-marquee{
+    height: 100px;
+ }
+ .recruiter-marquee img{
+    height: 80px;
+    width: 140px;
+ }
+ 
+
+ 
